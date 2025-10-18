@@ -9,9 +9,6 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>4F, I-REF building</p>
-    <p>1-1-1, Yayoi, Bunkyo-ku</p>
-    <p>Tokyo 113-8657, Japan</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
