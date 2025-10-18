@@ -9,8 +9,6 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>📧 weiqichi@g.ecc.u-tokyo.ac.jp</p>
-    <p>📱 +81-90-7508-6481</p>
     <p>4F, I-REF building</p>
     <p>1-1-1, Yayoi, Bunkyo-ku</p>
     <p>Tokyo 113-8657, Japan</p>
@@ -34,7 +32,3 @@ latest_posts:
 Her research interests include **millimeter-wave vehicular networks**, **machine learning for wireless communication**, **user association optimization**, V2X communication, intelligent transportation systems, and VANET simulation. Her current Ph.D. research focuses on **user association in mmWave V2X networks using machine learning solutions**, particularly developing **contextual multi-armed bandit (CMAB) algorithms** that address non-stationary reward problems in dynamic vehicular environments.
 
 She is a project student of the <a href='https://www.cis-trans.jp/spring_gx/'><strong>JST SPRING GX program</strong></a> since April 2024 and was awarded the <strong>Young Researcher's Encouragement Award</strong> by the <a href='https://sites.ieee.org/vtc-tokyo/'><strong>IEEE VTS Tokyo/Japan Chapter</strong></a> in 2024. She was also a project student member of Tokyo Institute of Technology's <a href='https://www.sss.e.titech.ac.jp/en/'><strong>Super Smart Society (SSS) program</strong></a> from 2021 to 2022.
-
-# Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-# Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
