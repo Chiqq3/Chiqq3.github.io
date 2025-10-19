@@ -1,16 +1,20 @@
-- title: General Information
+- title: About
   type: map
   contents:
     - name: Full Name
-      value: Chi Weiqi
+      value: Chi Weiqi (池玮琦)
+    - name: Position
+      value: Ph.D. Candidate in Information Engineering
     - name: Location
-      value: Tokyo, Japan
+      value: Tokyo, Japan 🇯🇵
     - name: Email
       value: weiqichi@g.ecc.u-tokyo.ac.jp
     - name: Phone
       value: +81-90-7508-6481
+    - name: Research Focus
+      value: mmWave V2X Networks · Blockage Prediction · Machine Learning · Contextual Bandits · VANET Simulation
     - name: Languages
-      value: English (Native), Japanese (JLPT N1), Chinese (Native), German (Beginner)
+      value: English (Native) · Japanese (JLPT N1) · Chinese (Native) · German (Beginner)
 
 - title: Education
   type: time_table
@@ -19,94 +23,149 @@
       institution: The University of Tokyo, Tokyo, Japan
       year: 2024 - Present
       description:
-        - Recipient of JST SPRING GX scholarship for Advanced Human Resource Development Leading Green Transformation
+        - "<b>Scholarship:</b> JST SPRING GX (Advanced Human Resource Development Leading Green Transformation)"
+        - "<b>Focus:</b> Learning-based user association for blockage-aware mmWave V2X networks"
     - title: Master of Engineering
       institution: Tokyo Institute of Technology, Tokyo, Japan
       year: 2020 - 2022
       description:
-        - Specialization in Wireless Communication Engineering and Electromagnetics
-        - Project student member of Super Smart Society (SSS)
+        - "<b>Specialization:</b> Wireless Communication Engineering & Electromagnetics"
+        - "<b>Affiliation:</b> Super Smart Society (SSS) Project Student Member"
+        - "<b>Collaboration:</b> Joint research with Rakuten Mobile Inc."
     - title: Bachelor of Engineering
       institution: Tianjin University of Finance and Economics, Tianjin, China
       year: 2016 - 2020
       description:
-        - Major in Information and Engineering
-        - First-class scholarship & Merit student (2018)
+        - "<b>Major:</b> Information and Engineering"
+        - "<b>Honors:</b> First-class Scholarship & Merit Student (2018)"
 
-- title: Research Experience
+- title: Research
   type: time_table
   contents:
-    - title: Dynamic mmWave Blockage Prediction in RSU-assisted ITS
+    - title: Learning-Based User Association for Blockage-aware mmWave V2X Networks
       institution: The University of Tokyo (Doctoral Research)
       year: 2024 - Present
       description:
-        - Proposed system structure for future path sharing based mmWave blockage prediction
-        - Developed the First Fresnel zone-based blockage determination algorithm
-        - Integrated SUMO and Wireless Insite simulation for a real-world 3D map-based V2X communication environment
+        - "<b>Objective:</b> Address link quality degradation due to blockages in mmWave vehicular networks"
+        - "<b>Key Contributions:</b>"
+        - "  • Developed <b>DCC-SMAB algorithm</b> achieving 61% regret reduction through dynamic context clustering"
+        - "  • Proposed future path sharing framework for <b>mmWave blockage prediction</b>"
+        - "  • Integrated <b>SUMO and ray-tracing simulation</b> with real-world maps for V2X environment modeling"
+        - "<b>Methods:</b> Contextual bandit algorithm, online learning, realistic VANET simulations"
+    
     - title: Blockage-Aware mmWave V2X Connectivity Analysis based on MCM
       institution: Technische Hochschule Ingolstadt, Germany (Visiting Researcher)
       year: 2024 - 2025
       description:
-        - Proposed FDM-based data structure for advanced V2X service development
-        - Developed MCM-based blockage prediction scheme for V2X performance enhancement
-        - VANET simulation development with the Artery core development team
-    - title: Measurement and Prediction of Attenuation caused by vegetation on mmWave
-      institution: Tokyo Institute of Technology & Rakuten Mobile, Inc. (Master Research)
+        - "<b>Objective:</b> Enhance RSU-assisted ITS for predictive blockage mitigation using Maneuver Coordination Messages"
+        - "<b>Key Contributions:</b>"
+        - "  • Proposed <b>FDM-based data structure</b> for advanced V2X service development"
+        - "  • Developed <b>MCM-based blockage prediction scheme</b> for V2X performance enhancement"
+        - "  • VANET simulation development with <b>Artery core development team</b> (Artery, OMNeT++, SUMO)"
+    
+    - title: Measurement and Prediction of Vegetation Attenuation on mmWave
+      institution: Tokyo Institute of Technology & Rakuten Mobile Inc. (Master Research)
       year: 2020 - 2022
       description:
-        - Designed outdoor measurement for 5G base station at 25GHz/28GHz
-        - Developed DKED model and ITU-R tree fading model simulation
-        - Conducted laser scanning, point cloud fusion, and antenna pattern analysis
+        - "<b>Objective:</b> Measure and predict static shadowing effect caused by single tree at 25GHz/28GHz"
+        - "<b>Key Contributions:</b>"
+        - "  • Designed <b>outdoor measurement</b> for 5G base station (Area tester, Spectrum analyzer)"
+        - "  • Developed <b>DKED model</b> (Double knife edge diffraction modeling)"
+        - "  • Simulated <b>ITU-R tree fading model</b> using laser scanner data"
+        - "  • Built <b>3D measurement environment and tree model</b> in Wireless InSite"
+        - "  • Conducted laser scanning, point cloud fusion, ranging, and <b>antenna pattern analysis</b>"
 
-- title: Employment History
+- title: Publications
+  type: nested_list
+  contents:
+    - title: International Conferences
+      items:
+        - "<b>[ICC 2026]</b> <b>W. Chi</b>, X. He, M. Tsukada, \"Fast-Adapting V2X Networks: A Dynamic Context Clustering Multi-Armed Bandits,\" IEEE International Conference on Communications (ICC), 2026. <i>(Under Review)</i>"
+        - "<b>[VTC 2024]</b> <b>W. Chi</b>, J. Nakazato, T. Murakami, M. Tsukada, \"V2I Blockage Modeling and Performance Evaluation for Connected Autonomous Vehicle,\" IEEE 99th Vehicular Technology Conference (VTC2024-Spring), Singapore, Jun. 2024. <i>(Peer Reviewed & Oral Presentation)</i>"
+        - "<b>[AOTULE 2021]</b> <b>W. Chi</b>, N. Keerativoranan, J. Takada, \"Outdoor mmWave Band Tx Localization Using Scattering Path under Spectrum Sharing Scenario,\" 13th AOTULE Student Conference, Korea, Nov. 2021. <i>(Oral Presentation)</i>"
+    
+    - title: Domestic Conferences (Japan)
+      items:
+        - "<b>[MISW 2022]</b> <b>W. Chi</b>, N. Keerativoranan, J. Takada, \"Outdoor Measurement of Millimeter-Wave Propagating Through Vegetation at 28GHz Band,\" MISW Conference, Tokyo, Aug. 2022. <i>(Oral Presentation & Chairperson)</i>"
+        - "<b>[IEICE 2025]</b> <b>W. Chi</b>, J. Nakazato, T. Murakami, M. Tsukada, \"ミリ波帯における遮蔽対応型 V2I 通信と解決策について,\" IEICE RCS, Kyoto, Mar. 2025. <i>(Oral Presentation)</i>"
+    
+    - title: Posters & Summer Schools
+      items:
+        - "<b>[CIV 2025]</b> <b>W. Chi</b>, M. Tsukada, \"Blockage-aware Multi-armed Bandits for Proactive Handover in mmWave Vehicular Networks,\" Cooperative Interactive Vehicles (CIV) Summer School, Geneva, Switzerland, 2025."
+
+- title: Professional Experience
   type: time_table
   contents:
     - title: Application Engineer
       institution: General Test Systems Inc., Shenzhen, China
-      year: 2023
+      year: Feb - Dec 2023
       description:
-        - OTA testing for Internet Connected Vehicles with anechoic chamber experience
-        - Hardware knowledge and operational experience of testing instrumentation (VNA, Radio Communication Analyzer)
-    - title: Internship
-      institution: Rakuten Mobile Inc. R&D group, Japan
-      year: 2022
+        - "<b>Company Focus:</b> End-to-end wireless communication OTA testing solutions"
+        - "<b>Responsibilities:</b>"
+        - "  • <b>OTA testing</b> for Internet Connected Vehicles (ICVs) with anechoic chamber experience"
+        - "  • Hardware knowledge of OTA testing systems"
+        - "  • Operational experience with testing instrumentation (<b>VNA, Radio Communication Analyzer, Area Tester</b>)"
+    
+    - title: AR/VR Development Intern
+      institution: Ehime Prefectural Industrial Technology Institute, Japan
+      year: Aug 2025
       description:
-        - Drone application development based on DJI Mobile SDK on Android platform
+        - "<b>Project:</b> Interactive AR experience for Ehime Prefecture's specialty products"
+        - "<b>Achievements:</b>"
+        - "  • <b>MRTK</b> environment setup and <b>Unity</b> 3D scene creation"
+        - "  • Developed 3D object manipulation system with scoring, audio effects, and UI design"
+        - "  • Enhanced <b>HoloLens 2</b> hand tracking accuracy with engaging AR visual effects"
+    
+    - title: R&D Intern - Drone Application Development
+      institution: Rakuten Mobile Inc., Japan
+      year: Sep 2022
+      description:
+        - "<b>Project:</b> Preliminary research for upcoming drone development project"
+        - "<b>Work:</b> Drone application development based on <b>DJI Mobile SDK</b> on Android platform"
 
-- title: Honors and Awards
+- title: Technical Skills
+  type: nested_list
+  contents:
+    - title: Programming Languages
+      items:
+        - C, C++, Python, MATLAB, NED (OMNeT++)
+    
+    - title: Development & Tools
+      items:
+        - Git, Docker, LaTeX, Linux/Ubuntu
+    
+    - title: Hardware & Testing
+      items:
+        - Vector Network Analyzer (VNA), Spectrum Analyzer, OTA Testing Systems
+    
+    - title: Simulation & Modeling
+      items:
+        - "<b>VANET & V2X:</b> OMNeT++, SUMO, Artery, Veins"
+        - "<b>Propagation:</b> Wireless InSite (ray tracing), MATLAB (channel modeling)"
+        - "<b>3D Visualization:</b> Unity, Blender, HoloLens 2 (MRTK)"
+
+- title: Awards & Recognition
   type: time_table
   contents:
     - year: 2024
       items:
-        - Young Researcher's Encouragement Award, IEEE VTS Tokyo/Japan Chapter
+        - "<b>Young Researcher's Encouragement Award</b> - IEEE VTS Tokyo/Japan Chapter"
     - year: 2021
       items:
-        - The Best Oral Presenter, MISW Conference
+        - "<b>The Best Oral Presenter</b> - MISW Conference"
     - year: 2018
       items:
-        - First Award, CUMCM (Contemporary Undergraduate Mathematical Contest in Modeling)
-        - Third Award, Japanese speech contest at the 11th Western Culture Festival
+        - "<b>First Award</b> - CUMCM (Contemporary Undergraduate Mathematical Contest in Modeling), Tianjin"
+        - "<b>Third Award</b> - Japanese Speech Contest, 11th Western Culture Festival"
     - year: 2017
       items:
-        - Excellent project award for SRT project on OFDM peak-to-average ratio suppression
+        - "<b>Excellent Project Award</b> - SRT Project on OFDM peak-to-average ratio suppression, TUFE"
     - year: 2016
       items:
-        - Second Award, "China Daily 21st Century · Coca-Cola Cup" English Speaking Competition
+        - "<b>Second Award</b> - China Daily 21st Century · Coca-Cola Cup English Speaking Competition (Tianjin)"
 
-- title: Skills
-  type: nested_list
-  contents:
-    - title: Programming
-      items:
-        - C, C++, Python, MATLAB, OMNeT++ (Ned language)
-    - title: Development Tools
-      items:
-        - Git, Docker
-    - title: Visualization & Modeling
-      items:
-        - Unity, Blender, Wireless Insite, OMNeT++, SUMO, Veins & Artery
-
-- title: Other Interests
+- title: Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Piano, Music, Swimming, Boxing, Bouldering
+    - "🎹 <b>Music:</b> Piano"
+    - "🏊 <b>Sports:</b> Swimming, Boxing, Bouldering"
