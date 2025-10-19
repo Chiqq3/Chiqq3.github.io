@@ -17,18 +17,18 @@
   contents:
     - title: Ph.D. in Information Engineering
       institution: The University of Tokyo, Tokyo, Japan
-      year: Apr. 2024 - Present
+      year: 2024 - Present
       description:
-        - Project student of JST SPRING GX scholarship
+        - Recipient of JST SPRING GX scholarship for Advanced Human Resource Development Leading Green Transformation
     - title: Master of Engineering
       institution: Tokyo Institute of Technology, Tokyo, Japan
-      year: Oct. 2020 - Sep. 2022
+      year: 2020 - 2022
       description:
         - Specialization in Wireless Communication Engineering and Electromagnetics
-        - Project student of Super Smart Society (SSS)
+        - Project student member of Super Smart Society (SSS)
     - title: Bachelor of Engineering
       institution: Tianjin University of Finance and Economics, Tianjin, China
-      year: Sep. 2016 - Jun. 2020
+      year: 2016 - 2020
       description:
         - Major in Information and Engineering
         - First-class scholarship & Merit student (2018)
@@ -36,20 +36,20 @@
 - title: Research Experience
   type: time_table
   contents:
-    - title: Dynamic mmWave Blockage Prediction in RSU assisted ITS
+    - title: Dynamic mmWave Blockage Prediction in RSU-assisted ITS
       institution: The University of Tokyo (Doctoral Research)
       year: 2024 - Present
       description:
         - Proposed system structure for future path sharing based mmWave blockage prediction
-        - Developed First Fresnel zone-based blockage determination algorithm
-        - Integrated SUMO and Wireless Insite simulation for real-world 3D map based V2X communication environment
+        - Developed the First Fresnel zone-based blockage determination algorithm
+        - Integrated SUMO and Wireless Insite simulation for a real-world 3D map-based V2X communication environment
     - title: Blockage-Aware mmWave V2X Connectivity Analysis based on MCM
       institution: Technische Hochschule Ingolstadt, Germany (Visiting Researcher)
       year: 2024 - 2025
       description:
         - Proposed FDM-based data structure for advanced V2X service development
         - Developed MCM-based blockage prediction scheme for V2X performance enhancement
-        - VANET simulation development with Artery core development team
+        - VANET simulation development with the Artery core development team
     - title: Measurement and Prediction of Attenuation caused by vegetation on mmWave
       institution: Tokyo Institute of Technology & Rakuten Mobile, Inc. (Master Research)
       year: 2020 - 2022
