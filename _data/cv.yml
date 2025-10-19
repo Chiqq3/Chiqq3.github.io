@@ -80,7 +80,6 @@
   contents:
     - title: International Conferences
       items:
-        - "<b>[ICC 2026]</b> <b>W. Chi</b>, X. He, M. Tsukada, \"Fast-Adapting V2X Networks: A Dynamic Context Clustering Multi-Armed Bandits,\" IEEE International Conference on Communications (ICC), 2026. <i>(Under Review)</i>"
         - "<b>[VTC 2024]</b> <b>W. Chi</b>, J. Nakazato, T. Murakami, M. Tsukada, \"V2I Blockage Modeling and Performance Evaluation for Connected Autonomous Vehicle,\" IEEE 99th Vehicular Technology Conference (VTC2024-Spring), Singapore, Jun. 2024. <i>(Peer Reviewed & Oral Presentation)</i>"
         - "<b>[AOTULE 2021]</b> <b>W. Chi</b>, N. Keerativoranan, J. Takada, \"Outdoor mmWave Band Tx Localization Using Scattering Path under Spectrum Sharing Scenario,\" 13th AOTULE Student Conference, Korea, Nov. 2021. <i>(Oral Presentation)</i>"
     
