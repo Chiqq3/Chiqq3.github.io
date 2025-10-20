@@ -37,6 +37,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
+        },{id: "nav-news",
+          title: "News",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/news/";
+          },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
               description: "",
@@ -420,7 +427,7 @@ ninja.data = [{
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
             },},{id: "news-my-personal-logo-is-born",
-          title: 'My Personal Logo is Born! 🎨',
+          title: 'My Personal Logo is Born!',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-10-20-logo/";
