@@ -16,7 +16,7 @@ footer_text: >
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: wireless communication, V2X, mmWave, ITS, vehicular networks, blockage prediction, user association, machine learning, online learning, multi-armed bandit # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-favicon: /assets/img/icon/pink_wob.jpg
+favicon: /assets/img/icon/pink_wob.png
 # icon: /assets/img/icon/pink_wob.jpg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://Chiqq3.github.io # the base hostname & protocol for your site
