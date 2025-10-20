@@ -423,7 +423,7 @@ ninja.data = [{
           title: 'My Personal Logo is Born! 🎨',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/news_logo/";
+              window.location.href = "/news/logo/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
