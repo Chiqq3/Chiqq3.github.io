@@ -18,7 +18,7 @@ The creation process was a delightful adventure following three steps:
 
 **Mayohachi → Hand-drawn Watercolor → Digital Edition**
 
-Starting from candid photos of Mayohachi, I sketched her characteristic, curious expression in watercolor, then transformed it into a clean digital logo. The WiFi waves naturally flow around her silhouette, symbolizing how wireless signals invisibly connect our world—just like how this little cat connected with my heart.
+Starting from candid photos of Mayohachi, I sketched her characteristic curious expression in watercolor, then transformed it into a clean digital logo. The WiFi waves naturally flow around her silhouette, symbolizing how wireless signals invisibly connect our world—just like how this little cat connected with my heart.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -42,19 +42,14 @@ The logo comes in multiple styles to suit different contexts:
 <div class="row mt-3">
     <div class="col-sm-6 mt-3 mt-md-0">
         <img src="/assets/img/icon/plain_orange.jpg" class="img-fluid rounded z-depth-1" alt="Minimal style">
-        <div class="caption">Plain orange version</div>
+        <div class="caption">Minimal</div>
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
         <img src="/assets/img/icon/sakura.jpg" class="img-fluid rounded z-depth-1" alt="Colorful style">
-        <div class="caption">With sakura</div>
+        <div class="caption">Colorful</div>
     </div>
 </div>
 
-<br>
-
----
-
-<br>
 
 From street rescue to personal brand identity—Mayohachi continues to surprise me in the most wonderful ways! 🐱📡
 
