@@ -4,6 +4,7 @@ title: My Personal Logo is Born! 🎨
 date: 2025-10-20 10:00:00-0400
 inline: false
 related_posts: false
+permalink: /news/logo/
 ---
 
 Today marks a special milestone—my personal logo has officially come to life!
