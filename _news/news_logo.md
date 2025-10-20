@@ -22,15 +22,15 @@ Starting from candid photos of Mayohachi, I sketched her characteristic curious 
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/icon/mayohach.jpg" class="img-fluid rounded z-depth-1" %}
+        <img src="/assets/img/icon/mayohach.jpg" class="img-fluid rounded z-depth-1" alt="Mayohachi the cat">
         <div class="caption">Step 1: Mayohachi - The muse</div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/icon/handdraw.jpg" class="img-fluid rounded z-depth-1" %}
+        <img src="/assets/img/icon/handdraw.jpg" class="img-fluid rounded z-depth-1" alt="Watercolor sketch">
         <div class="caption">Step 2: Hand-drawn watercolor</div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/icon/pink.jpg" class="img-fluid rounded z-depth-1" %}
+        <img src="/assets/img/icon/pink.jpg" class="img-fluid rounded z-depth-1" alt="Final digital logo">
         <div class="caption">Step 3: Digital version</div>
     </div>
 </div>
@@ -41,16 +41,20 @@ The logo comes in multiple styles to suit different contexts:
 
 <div class="row mt-3">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/icon/plain_orange.jpg" class="img-fluid rounded z-depth-1" %}
+        <img src="/assets/img/icon/plain_orange.jpg" class="img-fluid rounded z-depth-1" alt="Minimal style">
         <div class="caption">Minimal</div>
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/icon/sakura.jpg" class="img-fluid rounded z-depth-1" %}
+        <img src="/assets/img/icon/sakura.jpg" class="img-fluid rounded z-depth-1" alt="Colorful style">
         <div class="caption">Colorful</div>
     </div>
 </div>
 
+<br>
+
 ---
+
+<br>
 
 From street rescue to personal brand identity—Mayohachi continues to surprise me in the most wonderful ways! 🐱📡
 
