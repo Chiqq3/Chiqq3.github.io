@@ -50,17 +50,6 @@ The logo comes in multiple styles to suit different contexts:
     </div>
 </div>
 
-<div class="row mt-3">
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/icon/style_outline.png" class="img-fluid rounded z-depth-1" %}
-        <div class="caption">Outline</div>
-    </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/icon/style_watercolor.png" class="img-fluid rounded z-depth-1" %}
-        <div class="caption">Watercolor</div>
-    </div>
-</div>
-
 ---
 
 From street rescue to personal brand identity—Mayohachi continues to surprise me in the most wonderful ways! 🐱📡
