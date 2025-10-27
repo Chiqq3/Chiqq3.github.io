@@ -431,16 +431,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-10-20-logo/";
-            },},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+            },},{id: "projects-ar-mikan-hunt-game",
+          title: 'AR Mikan Hunt Game',
+          description: "An immersive AR game developed with HoloLens2, Unity, and MRTK",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/mikan_intern/";
             },},{
         id: 'social-email',
         title: 'email',
