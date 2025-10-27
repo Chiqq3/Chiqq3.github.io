@@ -15,8 +15,8 @@ related_publications: false
 
 During this internship, I developed "Mikan Hunt" (Orange Hunt), an augmented reality game where players interact with virtual objects in a mixed reality environment. The project was all about getting hands-on with AR fundamentals and creating an engaging, intuitive gaming experience using Microsoft's HoloLens 2 platform.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/project/mikan1.png" title="Project Overview" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
