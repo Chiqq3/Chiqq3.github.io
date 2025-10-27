@@ -1,7 +1,7 @@
 ---
 layout: page
 title: AR Mikan Hunt Game
-description: An immersive AR game developed with HoloLens2, Unity, and MRTK
+description: An immersive AR game developed with HoloLens 2, Unity, and MRTK
 img: assets/img/project/mikan_intern.png
 importance: 1
 category: Intern
@@ -16,7 +16,7 @@ related_publications: false
 
 **Technologies:** HoloLens2, Unity, MRTK (Mixed Reality Toolkit)
 
-This project involved developing an augmented reality game called "Mikan Hunt" (Orange Hunt) where players interact with virtual objects in a mixed reality environment. The internship focused on building fundamental AR development skills and creating an engaging, intuitive gaming experience using Microsoft's HoloLens2 platform.
+This project involved developing an augmented reality game called "Mikan Hunt" (Orange Hunt), where players interact with virtual objects in a mixed reality environment. The internship focused on developing fundamental AR skills and creating an engaging, intuitive gaming experience using Microsoft's HoloLens 2 platform.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -36,12 +36,12 @@ The AR Mikan Hunt game creates an interactive experience where players use hand 
 - **Avoiding Objects:** Touching other objects results in point deduction and failure sounds
 - **Intuitive Controls:** Direct hand manipulation enables instant immersion and natural interaction
 
-The game emphasizes natural, gesture-based interaction that makes AR technology accessible and fun, allowing players to engage with the virtual world through familiar physical movements.
+The game emphasizes natural, gesture-based interaction, making AR technology accessible and fun, and allowing players to engage with the virtual world through familiar physical movements.
 
 ## Technical Implementation
 
 ### 1. MRTK Environment Setup and Fundamentals
-The project began with establishing the Mixed Reality Toolkit environment and learning core Unity concepts for AR development. This included creating 3D scenes in Unity and adjusting viewport calibration to ensure proper visual alignment in the HoloLens2 headset.
+The project began with establishing the Mixed Reality Toolkit environment and learning core Unity concepts for AR development. This included creating 3D scenes in Unity and adjusting viewport calibration to ensure proper visual alignment in the HoloLens 2 headset.
 
 ### 2. 3D Object Control System Development
 A comprehensive object interaction system was developed in Unity, integrating object manipulation mechanics with a scoring system. The implementation combined physics-based interactions with real-time scoring feedback, creating a responsive gameplay experience.
@@ -83,14 +83,14 @@ Watch the full gameplay demonstration to see the AR Mikan Hunt game in action. T
     </div>
 </div>
 <div class="caption">
-    Full gameplay demonstration of the AR Mikan Hunt game on HoloLens2.
+    Full gameplay demonstration of the AR Mikan Hunt game on HoloLens 2.
 </div>
 
 ## Source Code
 
 The complete source code for this project is available on GitHub. The repository includes all Unity scripts, MRTK configurations, and documentation for setting up and running the AR Mikan Hunt game.
 
-**GitHub Repository:** [Insert your GitHub link here]
+**GitHub Repository:**[View on GitHub](https://github.com/Chiqq3/OrangePickup-Unity.git)
 
 The project demonstrates the practical application of mixed reality development principles, combining Unity game development with Microsoft's MRTK to create an engaging AR experience. Through this internship, I gained hands-on experience with spatial computing, gesture-based interaction design, and the unique challenges of developing for mixed reality platforms.
 
