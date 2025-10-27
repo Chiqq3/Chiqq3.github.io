@@ -48,7 +48,7 @@ Watch the full gameplay demonstration to see the AR Mikan Hunt game in action on
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-            <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
+            <iframe src="https://youtu.be/TlMMVIQp3u4" 
                     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
                     frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
