@@ -431,9 +431,9 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-10-20-logo/";
-            },},{id: "projects-ar-mikan-hunt-game",
-          title: 'AR Mikan Hunt Game',
-          description: "An immersive AR game developed with HoloLens 2, Unity, and MRTK",
+            },},{id: "projects-orange-hunt",
+          title: 'Orange Hunt',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/mikan_intern/";
             },},{
