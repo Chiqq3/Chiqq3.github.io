@@ -11,7 +11,7 @@ related_publications: false
 
 **Duration:** July 12th - August 23rd, 2025
 **Location:** Code Chrysalis: Coding Bootcamp in Tokyo, Japan  
-**Project Name:** IntelliRSU - Intelligent 5G Base Station Selection for Vehicular Networks  
+**Project Name:** IntelliBS - Intelligent 5G Base Station Selection for Vehicular Networks  
 **Technologies:** Machine Learning, Random Forest, Feature Engineering, Python
 
 ## Program Background
@@ -27,7 +27,7 @@ As a researcher who had primarily worked with machine learning in theory, I join
 In modern vehicular networks, signal propagation poses significant challenges for maintaining reliable 5G connectivity. As vehicles move through urban environments, they encounter:
 
 - **Dynamic blockages** from buildings, obstacles, and other vehicles
-- **Rapid mobility** requiring frequent handoffs between base stations (RSUs)
+- **Rapid mobility** requiring frequent handoffs between the Base Stations (BSs)
 - **Signal quality variations** that impact communication reliability
 
 <div class="row justify-content-center">
@@ -39,12 +39,12 @@ In modern vehicular networks, signal propagation poses significant challenges fo
     Visualization of signal propagation in vehicular networks with Ray-Tracing
 </div>
 
-The critical question: **How can we intelligently predict the optimal base station for a moving vehicle to ensure seamless connectivity?**
+The critical question: **How can we intelligently predict the optimal BS for a moving vehicle to ensure seamless connectivity?**
 
 ## Project Objective
 
-The goal of IntelliRSU was to develop an intelligent system that:
-1. Predicts the best 5G base station (RSU) for vehicles in real-time
+The goal of IntelliBS was to develop an intelligent system that:
+1. Predicts the best 5G BS for vehicles in real-time
 2. Handles mobility and blockage challenges effectively
 3. Achieves high accuracy suitable for real-world deployment
 4. Provides immediate deployment value for next-generation connected vehicles
@@ -54,13 +54,13 @@ The goal of IntelliRSU was to develop an intelligent system that:
 Our approach combined feature engineering with machine learning:
 
 1. **Feature Clustering**: Analyzed and grouped relevant features affecting signal quality
-2. **Random Forest Classification**: Implemented an optimized Random Forest model for base station selection
+2. **Random Forest Classification**: Implemented an optimized Random Forest model for BS selection
 3. **Performance Optimization**: Iteratively refined the model through data analysis and parameter tuning
 4. **Validation**: Tested the system under various scenarios to ensure robustness
 
 ## Results & Demonstration
 
-The project successfully achieved **near-perfect performance** in predicting optimal base station selection. The final results were presented in a 3-minute presentation at the summer school.
+The project successfully achieved **near-perfect performance** in predicting optimal BS selection. The final results were presented in a 3-minute presentation at the summer school.
 
 <div class="row justify-content-center">
     <div class="col-sm-10 mt-3 mt-md-0">
