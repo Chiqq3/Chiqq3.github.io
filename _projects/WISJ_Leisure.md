@@ -1,6 +1,6 @@
 ---
 layout: page
-title: WISJ ML Summer School - IntelliRSU Project
+title: WISJ ML Summer School
 img: assets/img/project/WISJ_SS1.gif
 importance: 1
 category: Leisure
@@ -16,7 +16,7 @@ related_publications: false
 
 ## Program Background
 
-The [WISJ (Women in Science Japan) AI Summer School](https://www.womeninsciencejapan.com/machine-learning-program) is a selective six-week program designed to teach women and gender minority scientists applied machine learning through lectures, hands-on tutorials, and mentor-guided projects. The program aims to equip participants with the technical knowledge and skills needed to continue their machine learning journey in their respective scientific domains.
+The [WISJ (Women in Science Japan) Machine Learning (ML) Summer School](https://www.womeninsciencejapan.com/machine-learning-program) is a selective six-week program designed to teach women and gender minority scientists applied machine learning through lectures, hands-on tutorials, and mentor-guided projects. The program aims to equip participants with the technical knowledge and skills needed to continue their machine learning journey in their respective scientific domains.
 
 ## My Motivation
 
@@ -36,7 +36,7 @@ In modern vehicular networks, signal propagation poses significant challenges fo
     </div>
 </div>
 <div class="caption">
-    Visualization of signal propagation challenges in vehicular networks
+    Visualization of signal propagation in vehicular networks with Ray-Tracing
 </div>
 
 The critical question: **How can we intelligently predict the optimal base station for a moving vehicle to ensure seamless connectivity?**
@@ -105,6 +105,3 @@ I would like to express my sincere gratitude to:
 - **Alexey**, my mentor, for his invaluable advice and guidance throughout this project
 - **WISJ AI Summer School** for providing this incredible opportunity to develop cutting-edge research in an inspiring and collaborative environment
 - **JST SPRING-GX program** for supporting my participation
-
----
-*My participation in the summer school was supported by the JST SPRING-GX program.*
