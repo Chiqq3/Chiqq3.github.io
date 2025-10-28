@@ -431,6 +431,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-10-20-logo/";
+            },},{id: "projects-wisj-ml-summer-school-intellirsu-project",
+          title: 'WISJ ML Summer School - IntelliRSU Project',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/WISJ_Leisure/";
             },},{id: "projects-orange-hunt",
           title: 'Orange Hunt',
           description: "",
