@@ -426,6 +426,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
+            },},{id: "news-my-first-poster-session",
+          title: '🎓 My First Poster Session!',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2025-09-08CIV/";
             },},{id: "news-my-personal-logo-is-born",
           title: '🐈 My Personal Logo is Born!',
           description: "",
