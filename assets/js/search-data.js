@@ -426,6 +426,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
+            },},{id: "news-first-international-conference-amp-award-in-singapore",
+          title: '🏆 First International Conference &amp;amp; Award in Singapore!',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/20250701VTC2024/";
             },},{id: "news-my-first-poster-session",
           title: '🎓 My First Poster Session!',
           description: "",
