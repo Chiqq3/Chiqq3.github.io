@@ -69,17 +69,6 @@ ninja.data = [{
             window.location.href = "/blog/2025/sumoRT/";
           
         },
-      },{id: "post-a-post-with-audios",
-        
-          title: "a post with audios",
-        
-        description: "this is what included audios could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/audios/";
-          
-        },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
