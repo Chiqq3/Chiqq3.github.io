@@ -58,7 +58,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-a-post-with-plotly-js",
+            },{id: "post-sumo-simulation-with-ray-tracing",
+        
+          title: "SUMO Simulation with Ray Tracing",
+        
+        description: "A comprehensive tutorial on creating vehicular networks with SUMO and MATLAB ray tracing",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/sumoRT/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
