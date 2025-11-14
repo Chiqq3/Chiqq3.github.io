@@ -58,7 +58,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-sumo-simulation-with-ray-tracing",
+            },{id: "post-ucb-exploration-in-sparse-rewarded-bandits",
+        
+          title: "UCB Exploration in Sparse Rewarded Bandits",
+        
+        description: "Investigating how UCB hyperparameter affects arm selection when dealing with sparse reward distributions in stochastic multi-armed bandits",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/ucbTest/";
+          
+        },
+      },{id: "post-sumo-simulation-with-ray-tracing",
         
           title: "SUMO Simulation with Ray Tracing",
         
