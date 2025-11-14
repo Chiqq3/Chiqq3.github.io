@@ -1,0 +1,133 @@
+---
+layout: post
+title: Multi-Armed Bandits: A Gentle Introduction
+date: 2025-11-14 18:30:00+0900
+description: An overview of the classic multi-armed bandit problem and its three main variants - stochastic, adversarial, and Bayesian bandits, with a brief look at contextual extensions
+tags: Machine-Learning Reinforcement-Learning MAB Theory
+categories: reinforcement-learning
+featured: true
+---
+
+## The Slot Machine Dilemma
+
+Imagine you're in a casino facing a row of slot machines (one-armed bandits). Each machine has a different—but unknown—probability of paying out. You have a limited budget and want to maximize your total winnings. Do you stick with a machine that seems promising, or do you try others that might be even better? This is the essence of the **Multi-Armed Bandit (MAB)** problem.
+
+The MAB framework models sequential decision-making under uncertainty, where an agent must balance:
+- **Exploration**: Trying different arms to learn their reward distributions
+- **Exploitation**: Pulling the arm believed to be best based on current knowledge
+
+This fundamental exploration-exploitation trade-off appears everywhere: clinical trials, online advertising, recommendation systems, resource allocation, and—in my case—intelligent vehicle-to-infrastructure communication strategies.
+
+## Three Flavors of Bandits
+
+Multi-armed bandit problems come in different flavors depending on how rewards are generated. Let's break down the three major categories:
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/blog/mabclass.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    Taxonomy of multi-armed bandit problems by reward model
+</div>
+
+### 1. Stochastic Bandits
+
+**The Setup:** Each arm generates rewards from a **fixed but unknown probability distribution**. When you pull arm $i$, you receive a reward $r_t \sim P_i$ drawn i.i.d. from that arm's distribution.
+
+**Key Assumption:** The reward distribution doesn't change over time—if arm 3 has a mean reward of 0.7 now, it will still have mean 0.7 a thousand pulls later.
+
+**Classic Algorithms:**
+- **UCB (Upper Confidence Bound)**: Selects arms based on optimistic estimates
+  $$a_t = \arg\max_i \left[\bar{r}_i + c\sqrt{\frac{\log t}{n_i}}\right]$$
+- **Thompson Sampling**: Uses Bayesian posterior sampling to balance exploration and exploitation
+- **ε-greedy**: Explores randomly with probability ε, exploits otherwise
+
+**Performance Metric:** Regret is measured against the optimal fixed arm
+$$R_T = T\mu^* - \sum_{t=1}^T r_t$$
+where $\mu^*$ is the best arm's expected reward.
+
+**Real-world Example:** A/B testing for website design where user preferences remain stable over the experiment duration.
+
+---
+
+### 2. Adversarial Bandits (Non-Stochastic)
+
+**The Setup:** Rewards are chosen by an **adversary** who can see your algorithm but not your randomness. There's no underlying probability distribution—rewards can be arbitrary and even adversarially selected to make your algorithm perform poorly.
+
+**Key Assumption:** None! This is the most pessimistic setting. The environment can be completely hostile.
+
+**Classic Algorithms:**
+- **EXP3 (Exponential-weight algorithm for Exploration and Exploitation)**: Maintains probability distributions over arms and samples accordingly
+- **EXP4**: Extension of EXP3 with expert advice
+
+**Performance Metric:** Regret is measured against the best single arm in hindsight
+$$R_T = \max_i \sum_{t=1}^T r_{i,t} - \sum_{t=1}^T r_{a_t,t}$$
+
+**Real-world Example:** Online advertising where competitors might game the system, or network routing where adversarial users can manipulate traffic patterns.
+
+---
+
+### 3. Bayesian Bandits
+
+**The Setup:** Similar to stochastic bandits, but you have **prior knowledge** about the reward distributions. You model each arm's reward distribution with a prior (e.g., Beta distribution for Bernoulli rewards) and update it using Bayes' rule.
+
+**Key Assumption:** You can specify a prior distribution over the reward parameters, and your beliefs evolve according to Bayesian inference.
+
+**Classic Algorithms:**
+- **Thompson Sampling**: Sample from posterior distributions and pull the arm with the highest sample
+- **Bayes-UCB**: Bayesian version of UCB using posterior quantiles
+- **Knowledge Gradient**: Explicitly models the value of information
+
+**Mathematical Framework:**
+- Prior: $p(\theta_i)$ for each arm $i$
+- Posterior update: $p(\theta_i | \mathcal{D}_t) \propto p(\mathcal{D}_t | \theta_i) p(\theta_i)$
+- Action selection: Sample $\tilde{\theta}_i \sim p(\theta_i | \mathcal{D}_t)$ and choose $\arg\max_i \tilde{\theta}_i$
+
+**Real-world Example:** Clinical trials where you have prior information from previous studies or similar drugs.
+
+---
+
+## Contextual Multi-Armed Bandits (CMAB)
+
+The classical MAB framework assumes arms have fixed reward distributions. But what if the environment changes? **Contextual bandits** extend MAB by incorporating **context** (also called side information) that varies over time.
+
+**The Key Idea:** At each round $t$, you observe a context vector $\mathbf{x}_t$ before choosing an arm. The reward now depends on both the arm and the context: $r_t = f(a_t, \mathbf{x}_t) + \epsilon_t$.
+
+**Three Main Approaches:**
+
+1. **Lipschitz Assumption** ⓵: Similar contexts lead to similar rewards
+   $$|\mu(a|\mathbf{x}) - \mu(a|\mathbf{x}')| \leq L||\mathbf{x} - \mathbf{x}'||$$
+
+2. **Linearity Assumption** ⓶: Rewards are linear in context features
+   $$\mu(a|\mathbf{x}) = \mathbf{x}^\top \boldsymbol{\beta}_a$$
+   where $\boldsymbol{\beta}_a$ is an unknown parameter vector for arm $a$.
+
+3. **Fixed Policy Class** ⓷: Define a policy class $\Pi$ and find the best policy within it
+   $$\pi^* = \arg\max_{\pi \in \Pi} \mathbb{E}\left[\sum_{t=1}^T r_t | \pi\right]$$
+
+**Classic Algorithms:**
+- **LinUCB**: Assumes linear reward model, maintains confidence ellipsoids
+- **Neural Contextual Bandits**: Use neural networks to model complex context-reward relationships
+- **Contextual Thompson Sampling**: Bayesian approach with context-dependent priors
+
+**My Research Application:** In vehicle-to-infrastructure (V2I) communication, the context includes vehicle location, speed, etc. The "arms" are different base stations (BS) or the roadside unit (RSU), and we want to choose the best association link.
+
+---
+
+## Which Bandit for Which Problem?
+
+- **Use Stochastic Bandits** when: Your environment is stationary and you can assume i.i.d. rewards
+- **Use Adversarial Bandits** when: You need robustness guarantees and can't trust the environment
+- **Use Bayesian Bandits** when: You have meaningful prior information and want to leverage it
+- **Use Contextual Bandits** when: Your decision depends on observable context that changes over time
+
+The beauty of the MAB framework is its simplicity and versatility. From clinical trials to online advertising to wireless network optimization, these algorithms help us make better decisions when we're learning on the fly. 
+
+In [my next post](link-to-sparse-reward-post), I'll dive deeper into a specific challenge: what happens when your stochastic bandit has extremely sparse rewards? Spoiler alert: classical UCB hyperparameters might not be your friend! 🎰
+
+---
+
+**Further Reading:**
+- Lattimore, T., & Szepesvári, C. (2020). *Bandit Algorithms*. Cambridge University Press.
+- Bubeck, S., & Cesa-Bianchi, N. (2012). *Regret Analysis of Stochastic and Nonstochastic Multi-armed Bandit Problems*. Foundations and Trends in Machine Learning.
