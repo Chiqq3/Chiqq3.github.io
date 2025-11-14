@@ -58,18 +58,7 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-",
-        
-          title: "",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/2025-11-14-MABIntro/";
-          
-        },
-      },{id: "post-ucb-exploration-in-sparse-rewarded-bandits",
+            },{id: "post-ucb-exploration-in-sparse-rewarded-bandits",
         
           title: "UCB Exploration in Sparse Rewarded Bandits",
         
@@ -78,6 +67,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/ucbTest/";
+          
+        },
+      },{id: "post-multi-armed-bandits-a-introduction",
+        
+          title: "Multi-Armed Bandits: A Introduction",
+        
+        description: "An overview of the classic multi-armed bandit problem and its three main variants - stochastic, adversarial, and Bayesian bandits, with a brief look at contextual extensions",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/MABIntro/";
           
         },
       },{id: "post-sumo-simulation-with-ray-tracing",
