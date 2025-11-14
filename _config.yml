@@ -256,7 +256,7 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["SUMO", "MATLAB", "Wireless Tech", "Code"] # these tags will be displayed on the front page of your blog
+display_tags: ["SUMO", "MATLAB", "ML", "Code", "MAB"] # these tags will be displayed on the front page of your blog
 display_categories: ["Tutorials", "Learning Notes", "Experiment"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
