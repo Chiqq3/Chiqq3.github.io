@@ -69,9 +69,9 @@ ninja.data = [{
             window.location.href = "/blog/2025/ucbTest/";
           
         },
-      },{id: "post-multi-armed-bandits-a-introduction",
+      },{id: "post-mab-a-introduction",
         
-          title: "Multi-Armed Bandits: A Introduction",
+          title: "MAB: A Introduction",
         
         description: "An overview of the classic multi-armed bandit problem and its three main variants - stochastic, adversarial, and Bayesian bandits, with a brief look at contextual extensions",
         section: "Posts",
