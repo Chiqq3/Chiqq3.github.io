@@ -69,6 +69,17 @@ ninja.data = [{
             window.location.href = "/blog/2025/ucbShift/";
           
         },
+      },{id: "post-ucb-under-gradual-distribution-decay",
+        
+          title: "UCB Under Gradual Distribution Decay",
+        
+        description: "Investigating how UCB exploration parameters interact with different rates of gradual arm quality degradation",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/ucbDynamic/";
+          
+        },
       },{id: "post-ucb-exploration-in-sparse-rewarded-bandits",
         
           title: "UCB Exploration in Sparse Rewarded Bandits",
