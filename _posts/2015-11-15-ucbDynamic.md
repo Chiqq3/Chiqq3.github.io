@@ -4,7 +4,7 @@ title: "UCB Under Gradual Distribution Decay"
 date: 2025-11-15
 description: Investigating how UCB exploration parameters interact with different rates of gradual arm quality degradation
 tags: Online-learning MAB UCB
-categories: machine-learning
+categories: Experiment
 featured: true
 ---
 
