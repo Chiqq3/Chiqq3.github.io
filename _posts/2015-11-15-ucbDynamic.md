@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "UCB Under Gradual Distribution Decay"
-date: 2025-11-15
+date: 2025-11-15 18:30:00+0900
 description: Investigating how UCB exploration parameters interact with different rates of gradual arm quality degradation
 tags: Online-learning MAB UCB
 categories: Experiment
