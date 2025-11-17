@@ -58,18 +58,7 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-ucb-under-non-stochastic-enviroment",
-        
-          title: "UCB Under Non-stochastic Enviroment",
-        
-        description: "Exploring how UCB algorithms adapt when arm reward distributions suddenly shift in non-stationary environments",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/ucbShift/";
-          
-        },
-      },{id: "post-ucb-under-gradual-distribution-decay",
+            },{id: "post-ucb-under-gradual-distribution-decay",
         
           title: "UCB Under Gradual Distribution Decay",
         
@@ -78,6 +67,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/ucbDynamic/";
+          
+        },
+      },{id: "post-ucb-under-non-stochastic-enviroment",
+        
+          title: "UCB Under Non-stochastic Enviroment",
+        
+        description: "Exploring how UCB algorithms adapt when arm reward distributions suddenly shift in non-stationary environments",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/ucbShift/";
           
         },
       },{id: "post-ucb-exploration-in-sparse-rewarded-bandits",
