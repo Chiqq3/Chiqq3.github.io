@@ -1,0 +1,95 @@
+---
+layout: null
+permalink: /api/about-detailed.json
+---
+{% assign about_page = site.pages | where: 'permalink', '/' | first %}
+{
+  "personal": {
+    "name": "Chi Weiqi",
+    "name_chinese": "池维琦"
+  },
+  "current_position": {
+    "status": "Ph.D. Student",
+    "department": "Department of Creative Informatics",
+    "university": "The University of Tokyo",
+    "country": "Japan",
+    "laboratory": "Tsukada Laboratory",
+    "expected_graduation": "2027-04"
+  },
+  "education": {
+    "phd": {
+      "institution": "The University of Tokyo",
+      "school": "Graduate School of Information Science and Technology",
+      "degree": "Ph.D. in Information Engineering",
+      "status": "In Progress",
+      "country": "Japan"
+    },
+    "masters": {
+      "institution": "Tokyo Institute of Technology",
+      "degree": "M.E. in Wireless Communication Engineering",
+      "graduation_year": 2022,
+      "country": "Japan"
+    },
+    "bachelors": {
+      "institution": "Tianjin University of Finance and Economics",
+      "degree": "B.E. in Information Engineering",
+      "graduation_year": 2020,
+      "country": "China"
+    }
+  },
+  "work_experience": [
+    {
+      "role": "Visiting Researcher",
+      "organization": "Technische Hochschule Ingolstadt",
+      "location": "Germany",
+      "period": "November 2024 - January 2025",
+      "project": "Artery core development team at Car2X-Laboratory"
+    },
+    {
+      "role": "Application Engineer",
+      "organization": "General Test Systems Inc.",
+      "location": "China",
+      "period": "February 2023 - December 2023",
+      "specialization": "Over-the-Air (OTA) testing solutions for connected vehicles"
+    }
+  ],
+  "research": {
+    "phd_focus": "User association in mmWave V2X networks based on machine learning",
+    "specific_approach": "Contextual multi-armed bandit (CMAB) based algorithms for non-stationary reward problems in dynamic vehicular environments",
+    "interests": [
+      "mmWave vehicular networks",
+      "machine learning for wireless communication",
+      "user association optimization",
+      "V2X communication",
+      "intelligent transportation systems (ITS)",
+      "VANET simulation"
+    ]
+  },
+  "awards_and_programs": [
+    {
+      "name": "JST SPRING GX program",
+      "role": "Project Student",
+      "period": "April 2024 - Present",
+      "organization": "Japan Science and Technology Agency"
+    },
+    {
+      "name": "Young Researcher's Encouragement Award",
+      "organization": "IEEE VTS Tokyo/Japan Chapter",
+      "year": 2024
+    },
+    {
+      "name": "Super Smart Society (SSS) program",
+      "role": "Project Student Member",
+      "institution": "Tokyo Institute of Technology",
+      "period": "2021 - 2022"
+    }
+  ],
+  "profile_settings": {
+    "has_selected_papers": {{ about_page.selected_papers }},
+    "has_social_links": {{ about_page.social }},
+    "announcements_enabled": {{ about_page.announcements.enabled }},
+    "latest_posts_enabled": {{ about_page.latest_posts.enabled }}
+  },
+  "biography_full_text": {{ about_page.content | strip_html | strip_newlines | jsonify }},
+  "website_url": "{{ site.url }}{{ about_page.url }}"
+}
