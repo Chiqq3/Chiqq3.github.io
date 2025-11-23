@@ -133,8 +133,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-10-20-logo/";
-            },},{id: "news-1st-tupuhack-our-first-ai-agent-adventure",
-          title: '🚀 1st TuPuHack - Our First AI Agent Adventure',
+            },},{id: "news-1st-tupuhack-an-ai-agent-adventure",
+          title: '🚀 1st TuPuHack - An AI Agent Adventure',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-11-23Tupuhack/";
