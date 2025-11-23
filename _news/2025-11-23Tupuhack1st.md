@@ -24,7 +24,7 @@ What a productive day! Successfully organized our first-ever AI Agent developmen
 
 From zero to a working demo in just one afternoon! Check out the result 👇
 
-<iframe width="560" height="315" src="https://youtu.be/aeJve-2pYF0" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aeJve-2pYF0" frameborder="0" allowfullscreen></iframe>
 
 Looking forward to the 2nd TuPuHack!!
 
