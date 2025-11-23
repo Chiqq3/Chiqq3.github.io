@@ -134,7 +134,7 @@ ninja.data = [{
           section: "News",handler: () => {
               window.location.href = "/news/2025-10-20-logo/";
             },},{id: "news-1st-tupuhack-our-first-ai-agent-adventure",
-          title: '1st TuPuHack - Our First AI Agent Adventure',
+          title: '🚀 1st TuPuHack - Our First AI Agent Adventure',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-11-23Tupuhack/";
