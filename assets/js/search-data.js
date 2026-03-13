@@ -138,6 +138,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-11-23Tupuhack/";
+            },},{id: "news-my-ehime-internship-is-now-on-youtube",
+          title: '🍊 My Ehime Internship is Now on YouTube!',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-03-13Vedio/";
             },},{id: "projects-wisj-ml-summer-school",
           title: 'WISJ ML Summer School',
           description: "",
