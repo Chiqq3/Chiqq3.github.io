@@ -78,24 +78,30 @@
 - title: Publications
   type: nested_list
   contents:
+    - title: Journals
+      items:
+        - "<b>[IoTJ under review]</b> <b>W. Chi</b>, B. Qian, M. Tsukada, \"Cooperative Blockage-Aware Dynamic Bandit for User Association in mmWave Heterogeneous Vehicular Networks,\" IEEE Internet of Things Journal. <i>(Under Review, Q1, IF: 8.9)</i>"
+
     - title: International Conferences
       items:
-        - "<b>[VTC 2024]</b> <b>W. Chi</b>, J. Nakazato, T. Murakami, M. Tsukada, \"V2I Blockage Modeling and Performance Evaluation for Connected Autonomous Vehicle,\" IEEE 99th Vehicular Technology Conference (VTC2024-Spring), Singapore, Jun. 2024. <i>(Peer Reviewed & Oral Presentation)</i>"
+        - "<b>[GLOBECOM 2026]</b> <b>W. Chi</b>, M. Tsukada, \"Blockage-Aware Non-stationary Dynamic Bandit for User Association in mmWave V2X Networks,\" IEEE Global Communications Conference (GLOBECOM) 2026. <i>(Under Review)</i>"
+        - "<b>[VNC 2026]</b> <b>W. Chi</b>, X. He, M. Tsukada, \"Fast-Adapting V2X Networks: A Dynamic Context Clustering Multi-Armed Bandits,\" IEEE Vehicular Networking Conference (VNC), Canada, Jun. 2026. <i>(<a href='https://vnc2026.ieee-vnc.org/wednesday-june-10'>Accepted</a>)</i>"
+        - "<b>[VTC 2024]</b> <b>W. Chi</b>, J. Nakazato, T. Murakami, M. Tsukada, \"V2I Blockage Modeling and Performance Evaluation for Connected Autonomous Vehicle,\" IEEE 99th Vehicular Technology Conference (VTC2024-Spring), Singapore, Jun. 2024. <i>(Peer Reviewed & Oral Presentation, <a href='https://ieeexplore.ieee.org/document/10683381'>IEEE Xplore</a>)</i>"
         - "<b>[AOTULE 2021]</b> <b>W. Chi</b>, N. Keerativoranan, J. Takada, \"Outdoor mmWave Band Tx Localization Using Scattering Path under Spectrum Sharing Scenario,\" 13th AOTULE Student Conference, Korea, Nov. 2021. <i>(Oral Presentation)</i>"
-    
+
     - title: Domestic Conferences (Japan)
       items:
         - "<b>[MISW 2022]</b> <b>W. Chi</b>, N. Keerativoranan, J. Takada, \"Outdoor Measurement of Millimeter-Wave Propagating Through Vegetation at 28GHz Band,\" MISW Conference, Tokyo, Aug. 2022. <i>(Oral Presentation & Chairperson)</i>"
-        - "<b>[IEICE 2025]</b> <b>W. Chi</b>, J. Nakazato, T. Murakami, M. Tsukada, \"ミリ波帯における遮蔽対応型 V2I 通信と解決策について,\" IEICE RCS, Kyoto, Mar. 2025. <i>(Oral Presentation)</i>"
-    
+        - "<b>[IEICE 2025]</b> <b>W. Chi</b>, J. Nakazato, T. Murakami, M. Tsukada, \"ミリ波帯における遮蔽対応型 V2I 通信と解決策について,\" IEICE RCS, Kyoto, Mar. 2025. <i>(Oral Presentation, <a href='https://ken.ieice.org/ken/paper/20250307Bcio/'>IEICE</a>)</i>"
+
     - title: Posters & Summer Schools
       items:
-        - "<b>[CIV 2025]</b> <b>W. Chi</b>, M. Tsukada, \"Blockage-aware Multi-armed Bandits for Proactive Handover in mmWave Vehicular Networks,\" Cooperative Interactive Vehicles (CIV) Summer School, Geneva, Switzerland, 2025."
+        - "<b>[CIV 2025]</b> <b>W. Chi</b>, M. Tsukada, \"Blockage-aware Multi-armed Bandits for Proactive Handover in mmWave Vehicular Networks,\" Cooperative Interactive Vehicles (CIV) Summer School, Geneva, Switzerland, 2025. <i>(<a href='https://civ-summerschool.org/civ2025/index.html#Poster-sessions'>Poster</a>)</i>"
 
 - title: Professional Experience
   type: time_table
   contents:
-    - title: Application Engineer
+    - title: Application Engineer Intern
       institution: General Test Systems Inc., Shenzhen, China
       year: Feb - Dec 2023
       description:
