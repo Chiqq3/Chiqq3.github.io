@@ -143,6 +143,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-03-13Vedio/";
+            },},{id: "news-️-student-volunteer-at-infocom-2026",
+          title: '🎙️ Student Volunteer at INFOCOM 2026!',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-5-20-INFOCOM2026/";
             },},{id: "projects-wisj-ml-summer-school",
           title: 'WISJ ML Summer School',
           description: "",
