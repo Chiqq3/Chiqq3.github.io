@@ -4,6 +4,27 @@
 
 // Typography
 
+body {
+  font-family: "Source Serif 4", Georgia, serif;
+  line-height: 1.8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Space Grotesk", sans-serif;
+  letter-spacing: -0.02em;
+}
+
+.navbar,
+.nav-link,
+.navbar-brand {
+  font-family: "Space Grotesk", sans-serif;
+}
+
 p,
 h1,
 h2,

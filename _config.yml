@@ -4,7 +4,7 @@
 
 title: Chi Weiqi # the website title (if blank, full name will be used instead)
 first_name: Weiqi
-middle_name: 
+middle_name:
 last_name: Chi
 contact_note: >
   Feel free to contact me through any of the methods above!
@@ -440,7 +440,7 @@ third_party_libraries:
     version: "5.5.0"
   google_fonts:
     url:
-      fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
+      fonts: "https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,400&family=Space+Grotesk:wght@400;500;600;700&family=Material+Icons&display=swap"
   highlightjs:
     integrity:
       css:
@@ -619,7 +619,6 @@ third_party_libraries:
       css: "https://cdn.jsdelivr.net/npm/venobox@{{version}}/dist/venobox.min.css"
       js: "https://cdn.jsdelivr.net/npm/venobox@{{version}}/dist/venobox.min.js"
     version: "2.1.8"
-
 # -----------------------------------------------------------------------------
 # Get external JSON data
 # -----------------------------------------------------------------------------
