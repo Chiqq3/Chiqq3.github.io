@@ -26,7 +26,7 @@ latest_posts:
 
   **Chi Weiqi** received her B.E. degree in information engineering from **Tianjin University of Finance and Economics**, China, in 2020, and an M.E. degree in wireless communication engineering from **Tokyo Institute of Technology**, Japan, in 2022. She is currently pursuing a Ph.D. degree in information engineering at the Graduate School of Information Science and Technology, **The University of Tokyo**, Japan. 
   
-  From February 2023 to December 2023, she worked as an Application Engineer at **General Test Systems Inc.**, China, specializing in Over-the-Air (OTA) testing solutions for connected vehicles. From November 2024 to January 2025, she was a Visiting Researcher at **Technische Hochschule Ingolstadt**, Germany, collaborating with the Artery core development team at the Car2X-Laboratory.
+  From November 2024 to January 2025, she was a Visiting Researcher at **Technische Hochschule Ingolstadt**, Germany, collaborating with the Artery core development team at the Car2X-Laboratory. She also has hands-on Over-the-Air (OTA) testing experience for Internet Connected Vehicles (ICVs) at **General Test Systems Inc.**, China (2023), including anechoic chamber work and wireless test instrumentation.
 
   Her research interests include mmWave vehicular networks, machine learning for wireless communication, user association optimization, V2X communication, intelligent transportation systems (ITS), and VANET simulation. Her current Ph.D. research focuses on **user association in mmWave V2X networks based on machine learning**, particularly developing contextual multi-armed bandit (CMAB) based algorithms that address non-stationary reward problems in dynamic vehicular environments.
 
