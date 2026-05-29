@@ -52,7 +52,7 @@
         - "  • Proposed future path sharing framework for <b>mmWave blockage prediction</b>"
         - "  • Integrated <b>SUMO and ray-tracing simulation</b> with real-world maps for V2X environment modeling"
         - "<b>Methods:</b> Contextual bandit algorithm, online learning, realistic VANET simulations"
-    
+
     - title: Blockage-Aware mmWave V2X Connectivity Analysis based on MCM
       institution: Technische Hochschule Ingolstadt, Germany (Visiting Researcher)
       year: 2024 - 2025
@@ -62,7 +62,7 @@
         - "  • Proposed <b>FDM-based data structure</b> for advanced V2X service development"
         - "  • Developed <b>MCM-based blockage prediction scheme</b> for V2X performance enhancement"
         - "  • VANET simulation development with <b>Artery core development team</b> (Artery, OMNeT++, SUMO)"
-    
+
     - title: Measurement and Prediction of Vegetation Attenuation on mmWave
       institution: Tokyo Institute of Technology & Rakuten Mobile Inc. (Master Research)
       year: 2020 - 2022
@@ -80,23 +80,23 @@
   contents:
     - title: Journals
       items:
-        - "<b>[IoTJ under review]</b> <b>W. Chi</b>, B. Qian, M. Tsukada, \"Cooperative Blockage-Aware Dynamic Bandit for User Association in mmWave Heterogeneous Vehicular Networks,\" IEEE Internet of Things Journal. <i>(Under Review, Q1, IF: 8.9)</i>"
+        - '<b>[IoTJ under review]</b> <b>W. Chi</b>, B. Qian, M. Tsukada, "Cooperative Blockage-Aware Dynamic Bandit for User Association in mmWave Heterogeneous Vehicular Networks," IEEE Internet of Things Journal. <i>(Under Review, Q1, IF: 8.9)</i>'
 
     - title: International Conferences
       items:
-        - "<b>[GLOBECOM 2026]</b> <b>W. Chi</b>, M. Tsukada, \"Blockage-Aware Non-stationary Dynamic Bandit for User Association in mmWave V2X Networks,\" IEEE Global Communications Conference (GLOBECOM) 2026. <i>(Under Review)</i>"
-        - "<b>[VNC 2026]</b> <b>W. Chi</b>, X. He, M. Tsukada, \"Fast-Adapting V2X Networks: A Dynamic Context Clustering Multi-Armed Bandits,\" IEEE Vehicular Networking Conference (VNC), Canada, Jun. 2026. <i>(<a href='https://vnc2026.ieee-vnc.org/wednesday-june-10'>Accepted</a>)</i>"
-        - "<b>[VTC 2024]</b> <b>W. Chi</b>, J. Nakazato, T. Murakami, M. Tsukada, \"V2I Blockage Modeling and Performance Evaluation for Connected Autonomous Vehicle,\" IEEE 99th Vehicular Technology Conference (VTC2024-Spring), Singapore, Jun. 2024. <i>(Peer Reviewed & Oral Presentation, <a href='https://ieeexplore.ieee.org/document/10683381'>IEEE Xplore</a>)</i>"
-        - "<b>[AOTULE 2021]</b> <b>W. Chi</b>, N. Keerativoranan, J. Takada, \"Outdoor mmWave Band Tx Localization Using Scattering Path under Spectrum Sharing Scenario,\" 13th AOTULE Student Conference, Korea, Nov. 2021. <i>(Oral Presentation)</i>"
+        - '<b>[GLOBECOM 2026]</b> <b>W. Chi</b>, M. Tsukada, "Blockage-Aware Non-stationary Dynamic Bandit for User Association in mmWave V2X Networks," IEEE Global Communications Conference (GLOBECOM) 2026. <i>(Under Review)</i>'
+        - '<b>[VNC 2026]</b> <b>W. Chi</b>, X. He, M. Tsukada, "Fast-Adapting V2X Networks: A Dynamic Context Clustering Multi-Armed Bandits," IEEE Vehicular Networking Conference (VNC), Canada, Jun. 2026. <i>(<a href=''https://vnc2026.ieee-vnc.org/wednesday-june-10''>Accepted</a>)</i>'
+        - '<b>[VTC 2024]</b> <b>W. Chi</b>, J. Nakazato, T. Murakami, M. Tsukada, "V2I Blockage Modeling and Performance Evaluation for Connected Autonomous Vehicle," IEEE 99th Vehicular Technology Conference (VTC2024-Spring), Singapore, Jun. 2024. <i>(Peer Reviewed & Oral Presentation, <a href=''https://ieeexplore.ieee.org/document/10683381''>IEEE Xplore</a>)</i>'
+        - '<b>[AOTULE 2021]</b> <b>W. Chi</b>, N. Keerativoranan, J. Takada, "Outdoor mmWave Band Tx Localization Using Scattering Path under Spectrum Sharing Scenario," 13th AOTULE Student Conference, Korea, Nov. 2021. <i>(Oral Presentation)</i>'
 
     - title: Domestic Conferences (Japan)
       items:
-        - "<b>[MISW 2022]</b> <b>W. Chi</b>, N. Keerativoranan, J. Takada, \"Outdoor Measurement of Millimeter-Wave Propagating Through Vegetation at 28GHz Band,\" MISW Conference, Tokyo, Aug. 2022. <i>(Oral Presentation & Chairperson)</i>"
-        - "<b>[IEICE 2025]</b> <b>W. Chi</b>, J. Nakazato, T. Murakami, M. Tsukada, \"ミリ波帯における遮蔽対応型 V2I 通信と解決策について,\" IEICE RCS, Kyoto, Mar. 2025. <i>(Oral Presentation, <a href='https://ken.ieice.org/ken/paper/20250307Bcio/'>IEICE</a>)</i>"
+        - '<b>[MISW 2022]</b> <b>W. Chi</b>, N. Keerativoranan, J. Takada, "Outdoor Measurement of Millimeter-Wave Propagating Through Vegetation at 28GHz Band," MISW Conference, Tokyo, Aug. 2022. <i>(Oral Presentation & Chairperson)</i>'
+        - '<b>[IEICE 2025]</b> <b>W. Chi</b>, J. Nakazato, T. Murakami, M. Tsukada, "ミリ波帯における遮蔽対応型 V2I 通信と解決策について," IEICE RCS, Kyoto, Mar. 2025. <i>(Oral Presentation, <a href=''https://ken.ieice.org/ken/paper/20250307Bcio/''>IEICE</a>)</i>'
 
     - title: Posters & Summer Schools
       items:
-        - "<b>[CIV 2025]</b> <b>W. Chi</b>, M. Tsukada, \"Blockage-aware Multi-armed Bandits for Proactive Handover in mmWave Vehicular Networks,\" Cooperative Interactive Vehicles (CIV) Summer School, Geneva, Switzerland, 2025. <i>(<a href='https://civ-summerschool.org/civ2025/index.html#Poster-sessions'>Poster</a>)</i>"
+        - '<b>[CIV 2025]</b> <b>W. Chi</b>, M. Tsukada, "Blockage-aware Multi-armed Bandits for Proactive Handover in mmWave Vehicular Networks," Cooperative Interactive Vehicles (CIV) Summer School, Geneva, Switzerland, 2025. <i>(<a href=''https://civ-summerschool.org/civ2025/index.html#Poster-sessions''>Poster</a>)</i>'
 
 - title: Professional Experience
   type: time_table
@@ -110,7 +110,7 @@
         - "  • <b>OTA testing</b> for Internet Connected Vehicles (ICVs) with anechoic chamber experience"
         - "  • Hardware knowledge of OTA testing systems"
         - "  • Operational experience with testing instrumentation (<b>VNA, Radio Communication Analyzer, Area Tester</b>)"
-    
+
     - title: AR/VR Development Intern
       institution: Ehime Prefectural Industrial Technology Institute, Japan
       year: Aug 2025
@@ -120,7 +120,7 @@
         - "  • <b>MRTK</b> environment setup and <b>Unity</b> 3D scene creation"
         - "  • Developed 3D object manipulation system with scoring, audio effects, and UI design"
         - "  • Enhanced <b>HoloLens 2</b> hand tracking accuracy with engaging AR visual effects"
-    
+
     - title: R&D Intern - Drone Application Development
       institution: Rakuten Mobile Inc., Japan
       year: Sep 2022
@@ -134,15 +134,15 @@
     - title: Programming Languages
       items:
         - C, C++, Python, MATLAB, NED (OMNeT++)
-    
+
     - title: Development & Tools
       items:
         - Git, Docker, LaTeX, Linux/Ubuntu
-    
+
     - title: Hardware & Testing
       items:
         - Vector Network Analyzer (VNA), Spectrum Analyzer, OTA Testing Systems
-    
+
     - title: Simulation & Modeling
       items:
         - "<b>VANET & V2X:</b> OMNeT++, SUMO, Artery, Veins"
@@ -168,6 +168,15 @@
     - year: 2016
       items:
         - "<b>Second Award</b> - China Daily 21st Century · Coca-Cola Cup English Speaking Competition (Tianjin)"
+
+- title: Academic Service
+  type: time_table
+  contents:
+    - title: Student Volunteer & Cameraman
+      institution: IEEE INFOCOM 2026, Tokyo, Japan
+      year: May 2026
+      description:
+        - "Served as student volunteer and official cameraman at one of the top-tier international conferences on computer communications and networking"
 
 - title: Interests
   type: list
