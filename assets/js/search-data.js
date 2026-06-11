@@ -148,6 +148,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-5-20-INFOCOM2026/";
+            },},{id: "news-presented-at-ieee-vnc-2026-in-montreal",
+          title: '🎤 Presented at IEEE VNC 2026 in Montreal!',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-06-12VNC2026/";
             },},{id: "projects-wisj-ml-summer-school",
           title: 'WISJ ML Summer School',
           description: "",
