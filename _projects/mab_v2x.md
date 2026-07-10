@@ -7,8 +7,8 @@ category: Research
 related_publications: false
 branches_title: Branches
 branches:
-  - title: "MAB: An Introduction"
-    description: An overview of the classic multi-armed bandit problem and its three main variants — stochastic, adversarial, and Bayesian bandits — with a brief look at contextual extensions.
+  - title: "An Introduction to MAB"
+    description: An overview of the classic multi-armed bandit problem and its three main variants (stochastic, adversarial, and Bayesian bandits), with a brief look at contextual extensions.
     date: 2025-11-14
     url: /blog/2025/MABIntro/
   - title: "UCB Exploration in Sparse Rewarded Bandits"
@@ -20,7 +20,7 @@ branches:
     date: 2025-11-15
     url: /blog/2025/ucbShift/
   - title: "UCB Under Gradual Distribution Decay"
-    description: What happens to UCB's exploration parameter when arm quality degrades gradually — the more realistic case of signal path loss as a vehicle drives away from an RSU.
+    description: What happens to UCB's exploration parameter when arm quality degrades gradually, the more realistic case of signal path loss as a vehicle drives away from an RSU.
     date: 2025-11-15
     url: /blog/2025/ucbDynamic/
 ---
@@ -31,11 +31,11 @@ branches:
 **Context:** Ph.D. research on V2X communication under mmWave channel blockage
 **Technologies:** Multi-armed bandits (UCB family)
 
-Choosing which roadside unit (RSU) a vehicle should associate with, moment to moment, is a sequential decision problem under uncertainty: link quality is unknown ahead of time, changes as the vehicle moves, and can be blocked outright by buildings or other vehicles at mmWave frequencies. This project treats that problem as a **multi-armed bandit**, where each RSU is an arm and the reward is the achievable link quality — and studies how classic bandit algorithms like UCB need to be adapted once the "arms" behave like real wireless channels instead of stationary slot machines.
+Choosing which roadside unit (RSU) a vehicle should associate with, moment to moment, is a sequential decision problem under uncertainty. Link quality is unknown ahead of time, changes as the vehicle moves, and can be blocked outright by buildings or other vehicles at mmWave frequencies. This project treats that problem as a **multi-armed bandit**, where each RSU is an arm and the reward is the achievable link quality, and studies how classic bandit algorithms like UCB need to be adapted once the "arms" behave like real wireless channels instead of stationary slot machines.
 
 ## Why Bandits
 
-Supervised learning needs labeled data on every option; in a live vehicular network you only observe the outcome of the RSU you actually chose. That's exactly the exploration/exploitation trade-off bandits are built for. The branches below trace a progression from the textbook stochastic bandit setting toward the messier, non-stationary conditions that show up in real V2X scenarios — sparse rewards, sudden hand-off shifts, and gradual path-loss decay.
+Supervised learning needs labeled data on every option; in a live vehicular network you only observe the outcome of the RSU you actually chose. That's exactly the exploration/exploitation trade-off bandits are built for. The branches below trace a progression from the textbook stochastic bandit setting toward the messier, non-stationary conditions that show up in real V2X scenarios, sparse rewards, sudden hand-off shifts, and gradual path-loss decay.
 
 ## Where This Is Going
 

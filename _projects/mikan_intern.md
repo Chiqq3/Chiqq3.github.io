@@ -9,7 +9,7 @@ related_publications: false
 
 ## Project Overview
 
-**Duration:** August 25, 2025 - August 29, 2025  
+**Duration:** August 25 to August 29, 2025  
 **Location:** Ehime Prefectural Industrial Technology Research Institute, Japan  
 **Technologies:** HoloLens 2, Unity, MRTK (Mixed Reality Toolkit)
 
@@ -26,12 +26,12 @@ During this internship, I developed "Mikan Hunt" (Orange Hunt), an augmented rea
 
 ## Game Concept and Mechanics
 
-The AR Mikan Hunt game creates an interactive experience celebrating Ehime Prefecture's most famous product—oranges!
+The AR Mikan Hunt game creates an interactive experience celebrating Ehime Prefecture's most famous product, oranges!
 
 **Core Gameplay:**
-- **Picking Oranges:** Grab virtual oranges to score points and hear satisfying success sound effects
-- **Avoiding Objects:** Touch other objects (like apples) and you'll lose points with accompanying failure sounds
-- **Intuitive Controls:** Direct hand manipulation means instant immersion and natural interaction—just reach out and grab!
+- **Picking Oranges**: Grab virtual oranges to score points and hear satisfying success sound effects
+- **Avoiding Objects**: Touch other objects (like apples) and you'll lose points with accompanying failure sounds
+- **Intuitive Controls**: Direct hand manipulation means instant immersion and natural interaction. Just reach out and grab!
 
 The game focuses on natural, gesture-based interaction, making AR technology feel accessible and fun. Players engage with the virtual world through familiar physical movements, no complicated controls needed.
 

@@ -9,9 +9,9 @@ related_publications: false
 
 ## Project Overview
 
-**Duration:** July 12th - August 23rd, 2025
-**Location:** Code Chrysalis: Coding Bootcamp in Tokyo, Japan  
-**Project Name:** IntelliBS - Intelligent 5G Base Station Selection for Vehicular Networks  
+**Duration:** July 12th to August 23rd, 2025
+**Location:** Code Chrysalis, a coding bootcamp in Tokyo, Japan  
+**Project Name:** IntelliBS, Intelligent 5G Base Station Selection for Vehicular Networks  
 **Technologies:** Machine Learning, Random Forest, Feature Engineering, Python
 
 ## Program Background
@@ -39,7 +39,7 @@ In modern vehicular networks, signal propagation poses significant challenges fo
     Visualization of signal propagation in vehicular networks with Ray-Tracing
 </div>
 
-The critical question: **How can we intelligently predict the optimal BS for a moving vehicle to ensure seamless connectivity?**
+This raised a critical question. **How can we intelligently predict the optimal BS for a moving vehicle to ensure seamless connectivity?**
 
 ## Project Objective
 
@@ -70,7 +70,7 @@ The project successfully achieved **near-perfect performance** in predicting opt
     </div>
 </div>
 <div class="caption">
-    Final presentation: IntelliRSU - Intelligent 5G Base Station Selection
+    Final presentation of IntelliRSU, Intelligent 5G Base Station Selection
 </div>
 
 ### Key Achievements:
@@ -84,7 +84,7 @@ This summer school experience was truly transformative for my research journey. 
 
 **What made this experience special:**
 
-- **Problem-solving through different perspectives**: When facing challenges in understanding the data, I learned to approach problems from multiple angles - observing patterns, questioning assumptions, and iteratively refining my approach. This process of discovery and problem-solving brought me genuine joy and excitement.
+- **Problem-solving through different perspectives**: When facing challenges in understanding the data, I learned to approach problems from multiple angles, observing patterns, questioning assumptions, and iteratively refining my approach. This process of discovery and problem-solving brought me genuine joy and excitement.
 
 - **Invaluable mentorship**: My mentor **Alexey** provided exceptional guidance throughout the project. His expertise was instrumental in shaping both the technical approach and the quality of this work. His advice helped me navigate challenges and think critically about model optimization.
 
