@@ -204,6 +204,40 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Project branches
+
+.branches {
+  margin-top: 2.5rem;
+
+  .branches-heading {
+    margin-bottom: 1.25rem;
+  }
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      .card-title {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+
+  .branch-card {
+    .branch-marker {
+      color: var(--global-theme-color);
+      font-size: 0.85rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .branch-date {
+      color: var(--global-text-color-light);
+      font-size: 0.8rem;
+      margin-bottom: 0.5rem;
+    }
+  }
+}
+
 // Citation
 
 .citation,
