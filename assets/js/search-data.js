@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "Research on decision-making under uncertainty, and the tools built to test it against the real world.",
+          description: "The summary and tutorials of my projects",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -187,11 +187,11 @@ ninja.data = [{
             window.location.href = "/blog/2025/sumoRT/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
+      },{id: "books-when-breath-becomes-air",
+          title: 'When Breath Becomes Air',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
+              window.location.href = "/books/when_breath_becomes_air/";
             },},{id: "news-first-international-conference-amp-award-in-singapore",
           title: '🏆 First International Conference &amp;amp; Award in Singapore!',
           description: "",
