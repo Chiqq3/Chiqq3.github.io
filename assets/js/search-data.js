@@ -16,16 +16,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-blog",
-          title: "Blog",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/blog/";
-          },
         },{id: "nav-projects",
           title: "Projects",
-          description: "My project summary.",
+          description: "Research on decision-making under uncertainty, and the tools built to test it against the real world.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -51,14 +44,95 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/books/";
               },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
-            },{id: "post-ucb-under-gradual-distribution-decay",
+            },{id: "post-part-8-exposing-bit-and-packet-error-rate",
+        
+          title: "Part 8. Exposing Bit and Packet Error Rate",
+        
+        description: "Veins already computes packet and bit error rate internally and throws them away. A small patch gets them back.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/veinsBridgeErrorRates/";
+          
+        },
+      },{id: "post-part-7-reporting-channel-quality-back",
+        
+          title: "Part 7. Reporting Channel Quality Back",
+        
+        description: "Turning received signal strength into a live table your own system can query at any time.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/veinsBridgeChannelReport/";
+          
+        },
+      },{id: "post-part-6-bootstrapping-the-world-from-openstreetmap",
+        
+          title: "Part 6. Bootstrapping the World from OpenStreetMap",
+        
+        description: "Deriving map bounds and building obstacles from a plain OSM file, no SUMO network required.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/veinsBridgeOsmWorld/";
+          
+        },
+      },{id: "post-part-5-your-own-node-manager",
+        
+          title: "Part 5. Your Own Node Manager",
+        
+        description: "Spawning and despawning vehicle modules dynamically, the job TraCIScenarioManager normally does for you.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/veinsBridgeNodeManager/";
+          
+        },
+      },{id: "post-part-4-the-step-loop",
+        
+          title: "Part 4. The Step Loop",
+        
+        description: "Letting OMNeT++ pull a fresh position snapshot on its own clock instead of getting pushed to on someone else&#39;s.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/veinsBridgeStepLoop/";
+          
+        },
+      },{id: "post-part-3-your-first-omnet-module",
+        
+          title: "Part 3. Your First OMNeT++ Module",
+        
+        description: "A minimal simple module that connects out to your bridge, receives the handshake, and says hello back.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/veinsBridgeFirstModule/";
+          
+        },
+      },{id: "post-part-2-a-length-prefixed-json-protocol",
+        
+          title: "Part 2. A Length Prefixed JSON Protocol",
+        
+        description: "Framing messages over a raw TCP socket so both sides always agree on where one message ends and the next begins.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/veinsBridgeWireProtocol/";
+          
+        },
+      },{id: "post-part-1-the-minimal-contract",
+        
+          title: "Part 1. The Minimal Contract",
+        
+        description: "What Veins actually needs from an external position source, and a toy ROS node that plays the part.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/veinsBridgeMinimalContract/";
+          
+        },
+      },{id: "post-ucb-under-gradual-distribution-decay",
         
           title: "UCB Under Gradual Distribution Decay",
         
@@ -134,7 +208,7 @@ ninja.data = [{
           section: "News",handler: () => {
               window.location.href = "/news/2025-10-20-logo/";
             },},{id: "news-1st-tupuhack-an-ai-agent-adventure",
-          title: '🚀 1st TuPuHack - An AI Agent Adventure',
+          title: '🚀 1st TuPuHack, an AI Agent Adventure',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-11-23Tupuhack/";
@@ -158,11 +232,26 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/WISJ_Leisure/";
+            },},{id: "projects-multi-armed-bandits-for-v2x-user-association",
+          title: 'Multi-Armed Bandits for V2X User Association',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/mab_v2x/";
             },},{id: "projects-orange-hunt",
           title: 'Orange Hunt',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/mikan_intern/";
+            },},{id: "projects-vehicular-network-simulation-with-sumo-and-ray-tracing",
+          title: 'Vehicular Network Simulation with SUMO and Ray Tracing',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/sumo_raytracing/";
+            },},{id: "projects-bringing-your-own-simulator-to-veins",
+          title: 'Bringing Your Own Simulator to Veins',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/veins_cosim/";
             },},{
         id: 'social-email',
         title: 'email',
