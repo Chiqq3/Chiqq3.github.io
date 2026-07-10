@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Research on decision-making under uncertainty, and the tools built to test it against the real world.
+description: The summary and tutorials of my projects
 nav: true
 nav_order: 3
 display_categories: [Research, Intern, Leisure]
