@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Vehicular Network Simulation with SUMO and Ray Tracing
-img:
+img: assets/img/project/project_rtsumo.png
 importance: 2
 category: Research
 related_publications: false
