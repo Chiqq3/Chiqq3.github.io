@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Multi-Armed Bandits for V2X User Association
-img: assets/img/project/project_mab.png
+img: assets/img/project/project_mab.gif
 importance: 1
 category: Research
 related_publications: false
