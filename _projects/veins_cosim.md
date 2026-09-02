@@ -45,10 +45,6 @@ branches:
 
 Veins is usually paired with SUMO through TraCI. That works fine until the vehicles you care about do not live in SUMO. Maybe they live in your own simulator, your own robotics stack, or a small script you wrote last week and have not fully forgiven yourself for. This project builds a TCP bridge that lets Veins take positions from anywhere, while still computing a real physically grounded wireless channel instead of assuming every link works perfectly.
 
-<div class="caption" style="border: 1px dashed var(--global-divider-color); border-radius: 6px; padding: 3rem 1rem; text-align: center; margin: 2rem 0;">
-Architecture diagram goes here. A sketch of the two simulators, the bridge between them, and the pieces the tutorial series builds one at a time.
-</div>
-
 ## Purpose
 
 My PhD research studies user association under mmWave blockage, which needs channel traces that behave like an actual street rather than an abstract bandit environment. Building a full VANET testbed for that felt heavy, so the pragmatic answer was to keep Veins as the channel model and feed it positions from whatever system happens to be driving the scenario that week.
