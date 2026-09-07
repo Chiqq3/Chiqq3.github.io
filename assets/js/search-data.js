@@ -227,6 +227,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-06-11VNC2026/";
+            },},{id: "news-civ-summer-school-2026-reunions-in-miyazaki",
+          title: '🚙 CIV Summer School 2026, Reunions in Miyazaki!',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-09-04CIV2026/";
             },},{id: "projects-wisj-ml-summer-school",
           title: 'WISJ ML Summer School',
           description: "",
