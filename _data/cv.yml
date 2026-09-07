@@ -18,13 +18,13 @@
   type: time_table
   contents:
     - title: Ph.D. in Information Engineering
-      institution: The University of Tokyo, Tokyo, Japan
+      institution: The University of Tokyo (QS #39, 2027), Tokyo, Japan
       year: 2024 - Present
       description:
         - "<b>Scholarship:</b> JST SPRING GX (Advanced Human Resource Development Leading Green Transformation)"
         - "<b>Focus:</b> Learning-based user association for blockage-aware mmWave V2X networks"
     - title: Master of Engineering
-      institution: Tokyo Institute of Technology, Tokyo, Japan
+      institution: Tokyo Institute of Technology (QS #97, 2027), Tokyo, Japan
       year: 2020 - 2022
       description:
         - "<b>Specialization:</b> Wireless Communication Engineering & Electromagnetics"
@@ -40,16 +40,18 @@
 - title: Research
   type: time_table
   contents:
-    - title: Learning-Based User Association for Blockage-aware mmWave V2X Networks
+    - title: Learning-Based User Association & Mobility Management in mmWave V2X Networks
       institution: The University of Tokyo (Doctoral Research)
       year: 2024 - Present
       description:
-        - "<b>Objective:</b> Address link quality degradation due to blockages in mmWave vehicular networks"
+        - "<b>Objective:</b> Contextual multi-armed bandit (CMAB) approaches for user association in mmWave vehicular networks under non-stationary channel conditions, without CSI acquisition or offline training"
         - "<b>Key Contributions:</b>"
-        - "  • Developed <b>DCC-SMAB algorithm</b> achieving 61% regret reduction through dynamic context clustering"
-        - "  • Proposed future path sharing framework for <b>mmWave blockage prediction</b>"
-        - "  • Integrated <b>SUMO and ray-tracing simulation</b> with real-world maps for V2X environment modeling"
-        - "<b>Methods:</b> Contextual bandit algorithm, online learning, realistic VANET simulations"
+        - "  • Developed <b>BAND algorithm</b> integrating change-point detection (CUSUM-CD) with blockage-aware reward estimation to overcome detection failure of conventional bandits under mobility- and blockage-driven non-stationary rewards <i>(IEEE GLOBECOM 2026)</i>"
+        - "  • Proposed <b>trajectory-aligned knowledge (TAK) regions</b> in a semi-distributed CMAB framework for cross-vehicle knowledge sharing and cold-start acceleration, with rigorous regret-bound analysis <i>(IEEE T-VT, under review)</i>"
+        - "  • Developed <b>DCC-SMAB algorithm</b> using dynamic hierarchical context clustering to mitigate slow convergence in high-dimensional context spaces, achieving 61% regret reduction <i>(IEEE VNC 2026)</i>"
+        - "  • Built <b>SUMO and ray-tracing simulation</b> framework with real-world maps for realistic V2X communication data analysis <i>(IEICE RCS 2025)</i>"
+        - "  • Proposed a <b>geometric-based dynamic V2I blockage modeling</b> and detection method <i>(IEEE VTC 2024)</i>"
+        - "<b>Methods:</b> Contextual bandit algorithms, online learning, realistic VANET simulations"
 
     - title: Blockage-Aware mmWave V2X Connectivity Analysis based on MCM
       institution: Technische Hochschule Ingolstadt, Germany (Visiting Researcher)
@@ -73,15 +75,26 @@
         - "  • Built <b>3D measurement environment and tree model</b> in Wireless InSite"
         - "  • Conducted laser scanning, point cloud fusion, ranging, and <b>antenna pattern analysis</b>"
 
+- title: Fundings
+  type: time_table
+  contents:
+    - title: ACT-X, Japan Science and Technology Agency (JST)
+      institution: Passed first-round screening and interview
+      year: Oct 2026 - Mar 2028
+      description:
+        - "ACT-X is one of the most prestigious grants available to Ph.D. students in Japan, awarded by the country's leading national science funding body JST (comparable to NSF/DFG)"
+        - "Only 20 researchers within the specified field were funded nationwide last year, with direct funding of ¥6,000,000 (approx. €33,000) over 2 years"
+
 - title: Publications
   type: nested_list
   contents:
     - title: Journals
       items:
-        - '<b>[IoTJ under review]</b> <b>W. Chi</b>, B. Qian, M. Tsukada, "Cooperative Blockage-Aware Dynamic Bandit for User Association in mmWave Heterogeneous Vehicular Networks," IEEE Internet of Things Journal. <i>(Under Review, Q1, IF: 8.9)</i>'
+        - '<b>[T-VT under review]</b> <b>W. Chi</b>, B. Qian, H. Wu, D. Li, H. Zhou, M. Tsukada, "Toward Blockage-Resilient 6G-V2X Connectivity: Semi-Distributed Bandit with Dynamic Arm Set for mmWave HetNets," IEEE Transactions on Vehicular Technology. <i>(Under Review, Q1, IF: 7.5+)</i>'
 
     - title: International Conferences
       items:
+        - '<b>[AAAI 2027]</b> H. Wu, B. Qian, H. Si, <b>W. Chi</b>, E. Javanmardi, H. Zhou, M. Tsukada, "Sparsity and Evidential Uncertainty Enabled Communication and Sampling for Collaborative Semantic Occupancy Prediction," Proceedings of the AAAI Conference on Artificial Intelligence, 2027. <i>(Under Review, CORE A*)</i>'
         - '<b>[GLOBECOM 2026]</b> <b>W. Chi</b>, M. Tsukada, "Blockage-Aware Non-stationary Dynamic Bandit for User Association in mmWave V2X Networks," IEEE Global Communications Conference (GLOBECOM) 2026. <i>(Under Review)</i>'
         - '<b>[VNC 2026]</b> <b>W. Chi</b>, X. He, M. Tsukada, "Fast-Adapting V2X Networks: A Dynamic Context Clustering Multi-Armed Bandits," IEEE Vehicular Networking Conference (VNC), Canada, Jun. 2026. <i>(<a href=''https://vnc2026.ieee-vnc.org/wednesday-june-10''>Accepted</a>)</i>'
         - '<b>[VTC 2024]</b> <b>W. Chi</b>, J. Nakazato, T. Murakami, M. Tsukada, "V2I Blockage Modeling and Performance Evaluation for Connected Autonomous Vehicle," IEEE 99th Vehicular Technology Conference (VTC2024-Spring), Singapore, Jun. 2024. <i>(Peer Reviewed & Oral Presentation, <a href=''https://ieeexplore.ieee.org/document/10683381''>IEEE Xplore</a>)</i>'
@@ -94,11 +107,28 @@
 
     - title: Posters & Summer Schools
       items:
+        - '<b>[CIV 2026]</b> <b>W. Chi</b>, M. Tsukada, "Bridging the Gap: A Realistic V2X Simulator for Cooperative Autonomous Driving," Cooperative Interactive Vehicles (CIV) Summer School, Miyazaki, Japan, 2026. <i>(<a href=''https://chiqq3.github.io/assets/pdf/chi2026civ_poster.pdf''>Poster</a>)</i>'
         - '<b>[CIV 2025]</b> <b>W. Chi</b>, M. Tsukada, "Blockage-aware Multi-armed Bandits for Proactive Handover in mmWave Vehicular Networks," Cooperative Interactive Vehicles (CIV) Summer School, Geneva, Switzerland, 2025. <i>(<a href=''https://civ-summerschool.org/civ2025/index.html#Poster-sessions''>Poster</a>)</i>'
 
-- title: Professional Experience
+- title: Internships
   type: time_table
   contents:
+    - title: mmWave Repeater Simulation Engineer Intern
+      institution: Visban Inc., Tokyo, Japan
+      year: Jun 2026 - Present
+      description:
+        - "<b>Overview:</b> Developed a multi-hop radio propagation simulation pipeline using <b>Sionna ray tracing</b> to optimize <b>Network Controlled Repeater (NCR)</b> placement in 5G mmWave networks"
+        - "<b>Responsibilities:</b>"
+        - "  • Automated link analysis with Sionna to evaluate NCR placement patterns across a large-scale parameter search"
+        - "  • Computed and visualized SNR and coverage from ray-tracing results to accelerate parameter exploration"
+    - title: Autoware V2X Engineer Intern
+      institution: Tier IV Inc., Tokyo, Japan
+      year: Apr - Sep 2026
+      description:
+        - "<b>Overview:</b> Integrated the <b>Autoware</b> autonomous driving stack with the <b>Veins/OMNeT++</b> V2X network simulator to reproduce realistic mmWave V2X channel conditions in real time within closed-loop autonomous driving simulations"
+        - "<b>Responsibilities:</b>"
+        - "  • Designed and implemented a bidirectional bridge between Autoware and Veins/OMNeT++, exchanging vehicle position data and V2X channel state (RSSI, SNR, delay)"
+        - "  • Evaluated realistic V2X communication quality under building/vehicle obstruction based on the IEEE 802.11p physical layer"
     - title: Application Engineer Intern
       institution: General Test Systems Inc., Shenzhen, China
       year: Feb - Dec 2023
@@ -133,6 +163,10 @@
       items:
         - C, C++, Python, MATLAB, NED (OMNeT++)
 
+    - title: ML Frameworks & Data Processing
+      items:
+        - Scikit-learn, NumPy, Pandas
+
     - title: Development & Tools
       items:
         - Git, Docker, LaTeX, Linux/Ubuntu
@@ -144,7 +178,7 @@
     - title: Simulation & Modeling
       items:
         - "<b>VANET & V2X:</b> OMNeT++, SUMO, Artery, Veins"
-        - "<b>Propagation:</b> Wireless InSite (ray tracing), MATLAB (channel modeling)"
+        - "<b>Propagation:</b> Wireless InSite, Sionna (ray tracing), MATLAB (channel modeling)"
         - "<b>3D Visualization:</b> Unity, Blender, HoloLens 2 (MRTK)"
 
 - title: Awards & Recognition
