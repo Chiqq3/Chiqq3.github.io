@@ -204,8 +204,13 @@
 - title: Academic Service
   type: time_table
   contents:
+    - title: Technical Program Committee (TPC) Member
+      institution: International Conference on Aerospace Information Perception and Intelligent Processing (AIPIP 2026)
     - title: Peer Reviewer
-      institution: IEEE Transactions on Cognitive Communications and Networking (TCCN)
+      description:
+        - "IEEE Network Magazine"
+        - "IEEE Transactions on Cognitive Communications and Networking (TCCN)"
+        - "IEEE Transactions on Network Science and Engineering (TNSE)"
     - title: Student Volunteer & Cameraman
       institution: IEEE INFOCOM 2026, Tokyo, Japan
       year: May 2026
